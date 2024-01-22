@@ -16,36 +16,14 @@ This project is a simple CRUD (Create, Read, Update, Delete) application that ut
 
 The project is designed to guide you through the process of storing data and interacting with the stored data using MongoDB client. Follow the steps below to get started:
 
-### Step 1 - Create your POST endpoint
-
-#### index.html
-
-Although this is called a CRUD app, we are using GET, POST, PUT, and DELETE HTTP requests. As mentioned before, we used the GET request to read our data, which means now we will use a POST request to create our data. We can do this using a `<form>` element.
-
-In the body of your `index.html`, add the following:
-
-```html
-<form action="/users" method="POST">
-  <input type="text" id="username" placeholder="Username" name="username" />
-  <input type="text" id="password" placeholder="Password" name="password" />
-  <button type="submit">Submit</button>
-</form>
-```
+### Step 1 - Create a MongoDB account and create a database using MongoDB Atlas
 
 **IDE/Editor:** [Visual Studio Code]
 
 **Terminal:** [Git Bash]
 
-### Step 2 - Parse the data
-
- Parse the data by installing body-parser and including that in the app. 
- App will use body-parser for each HTTP request. We can test the POST request and receive information from the index.html in the req itself via the body.
-
-In your browser, test the input fields by providing FAULTY usernames and passwords. You should receive a message in your console - a JavaScript object with the keys username and password.
-
-![image](https://github.com/pujaroy280/CRUD-2-Create/assets/62675121/159816d5-cb86-41e0-9967-4ec4c113e19b)
-![image](https://github.com/pujaroy280/CRUD-2-Create/assets/62675121/e27c404e-3873-47c5-b8eb-c0d2c7d86a53)
-
+### Step 2 - Deploy and connect your Database
+### Step 3 - Save your connection string to connect to VScode
 
 
 ## Installation
